@@ -1,0 +1,30 @@
+{
+  "name": "kvick-rest-server",
+  "version": "0.0.1",
+  "description": "A simple Node.js REST API setup using typescript",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "install": "tsc"
+  },
+  "keywords": [
+    "nodejs",
+    "typescript",
+    "rest",
+    "api"
+  ],
+  "author": "Ilia Loginov <i.loginow@outlook.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@types/express": "^4.16.1",
+    "@types/node": "^11.11.7",
+    "@types/winston": "^2.4.4",
+    "express": "^4.16.4",
+    "winston": "^3.2.1"
+  },
+  "devDependencies": {
+    "tslint": "^5.14.0",
+    "tslint-config-airbnb-base": "^0.3.0",
+    "typescript": "^3.3.4000"
+  }
+}
